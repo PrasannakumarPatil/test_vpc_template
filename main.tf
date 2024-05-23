@@ -9,7 +9,7 @@ terraform {
 
 # Configure the IBM Cloud Provider
 provider "ibm" {
-  region           = var.ibm_region
+  region           = var.region
 }
 
 # Create a new VPC
