@@ -3,3 +3,8 @@ variable "region" {
   type        = string
   default = "us-south"
 }
+
+variable "api_key" {
+  description = "API key"
+  type        = string
+}
